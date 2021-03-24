@@ -1,0 +1,14 @@
+QT_TS = \
+  qt/locale/blockidcoin_de.ts \
+  qt/locale/blockidcoin_en.ts \
+  qt/locale/blockidcoin_en_US.ts \
+  qt/locale/blockidcoin_es.ts \
+  qt/locale/blockidcoin_fr_FR.ts \
+  qt/locale/blockidcoin_hr_HR.ts \
+  qt/locale/blockidcoin_it.ts \
+  qt/locale/blockidcoin_ko_KR.ts \
+  qt/locale/blockidcoin_nl.ts \
+  qt/locale/blockidcoin_pl.ts \
+  qt/locale/blockidcoin_ru.ts \
+  qt/locale/blockidcoin_tr.ts \
+  qt/locale/blockidcoin_zh_CN.ts

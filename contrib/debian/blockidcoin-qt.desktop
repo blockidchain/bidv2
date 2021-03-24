@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=blockidcoin
+Comment=blockidcoin P2P Cryptocurrency
+Exec=blockidcoin-qt %u
+Terminal=false
+Type=Application
+Icon=blockidcoin128
+MimeType=x-scheme-handler/blockidcoin;
+Categories=Office;Finance;
+StartupWMClass=blockidcoin-qt
+Name[en_IN]=blockidcoin-qt.desktop

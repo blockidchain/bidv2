@@ -1,0 +1,16 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=BID_Coin
+Comment=BID_Coin QT main network
+GenericName=BID_Coin Digital Currency QT client main network
+Exec=blockidcoin_coin-core.qt %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/blockidcoin_coin.png
+MimeType=x-scheme-handler/blockidcoin_coin;
+Categories=X-Office;X-Finance;
+Keywords=internet;blockidcoin_coin;zblockidcoin;blockidcoin;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
+Name[en_IN]=blockidcoin-qt.desktop

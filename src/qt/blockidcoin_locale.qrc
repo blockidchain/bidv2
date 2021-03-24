@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="de">locale/blockidcoin_de.qm</file>
+        <file alias="en">locale/blockidcoin_en.qm</file>
+        <file alias="en_US">locale/blockidcoin_en_US.qm</file>
+        <file alias="es">locale/blockidcoin_es.qm</file>
+        <file alias="fr_FR">locale/blockidcoin_fr_FR.qm</file>
+        <file alias="hr_HR">locale/blockidcoin_hr_HR.qm</file>
+        <file alias="it">locale/blockidcoin_it.qm</file>
+        <file alias="ko_KR">locale/blockidcoin_ko_KR.qm</file>
+        <file alias="nl">locale/blockidcoin_nl.qm</file>
+        <file alias="pl">locale/blockidcoin_pl.qm</file>
+        <file alias="ru">locale/blockidcoin_ru.qm</file>
+        <file alias="tr">locale/blockidcoin_tr.qm</file>
+        <file alias="zh_CN">locale/blockidcoin_zh_CN.qm</file>
+    </qresource>
+</RCC>
