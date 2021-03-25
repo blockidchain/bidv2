@@ -1,5 +1,5 @@
 <h1>BLOCKIDCOIN repository</h1>
-<p> BLOCKIDCOIN is a digital crypto currency based on blockchain technology to support Blockidcoin-preloaded holiday makers digital debit card platform, powered by own BLOCKIDCOIN blockchain.<p>
+<p> BLOCKIDCOIN is a digital crypto currency based on blockchain technology with focus on implementing fingerprints as an immutable means of cryptographic identity on the blockchain in transactions on the BID network and P2P platform powered by own BLOCKIDCOIN.<p>
 <p> BLOCKIDCOIN utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of BLOCKIDCOIN to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to have passive income of BLOCKIDCOIN.<p>
 
 <br> More information at: <br>

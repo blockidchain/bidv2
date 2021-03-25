@@ -374,10 +374,10 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
         if (configFile != NULL)
         {
-            std::string strHeader = "addnode=45.63.2.245:31472\n"
-                                    "addnode=207.246.94.60:31472\n"
-                                    "addnode=45.77.151.81:31472\n"
-                                    "addnode=45.77.96.149:31472\n";
+            std::string strHeader = "addnode=104.156.249.165:31472\n"
+                                    "addnode=45.77.149.72:31472\n"
+                                    "addnode=140.82.62.126:31472\n"
+                                    "addnode=149.28.37.28:31472\n";
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
             streamConfig.open(GetConfigFile());

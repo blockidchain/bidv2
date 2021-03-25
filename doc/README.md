@@ -28,7 +28,7 @@ Drag blockidcoin-Qt to your applications folder, and then run blockidcoin-Qt.
 
 * See the documentation at the [blockidcoin Wiki](https://github.com/blockidcoinvps-project/blockidcoin/wiki)
 for help and more information.
-* Ask for help on [blockidcoin Helpdesk](https://blockidcoincoin.com/).
+* Ask for help on [blockidcoin Helpdesk](https://blockidcoin.com/).
 * Join our Discord server [Discord Server](https://discord.gg/RpBXAnvp7k)
 
 Building
