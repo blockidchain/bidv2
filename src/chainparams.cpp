@@ -56,15 +56,22 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  * + Contains no strange transactions
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256S("000002999bfaf73d8f4b2909bbd335d4ac86d7617c3495054e3d024a220df760"))/*
-	(1000, uint256S("0x0000006b43065fdf445f07adca57fe5fd888902cb79c16fa48302cf1c0ab88ce"))
-	(10000, uint256S("0xa2fd284213d913463d827c166ed0220b30de857794956b9dfbaaa5395891ef32"))
-	(20000, uint256S("0x85acbdc4e8b609ddb3584c15f94248cc08d85c337736c12422f3e84a5bc51c4a"))*/;
+    boost::assign::map_list_of(0, uint256S("000002999bfaf73d8f4b2909bbd335d4ac86d7617c3495054e3d024a220df760"))
+	(1000, uint256S("0x0000074258d299a13af37764b937600dd8d402fa2748b0580300d332c2d10081"))
+	(10000, uint256S("0x6d875ca54c88b5cd31d9ccf2f322177a1b49af2f5d139181556c5682f06cc55a"))
+	(20000, uint256S("0xe1467493e9eaf07b7e0ef8931caef5629b810ef48d192748194ee7f0b5741287"))
+	(57894, uint256S("0x41b054650d78f03744f17e2240e1c257a32ac2067212ecec8dca696eda981611"))
+	(84591, uint256S("0x67ec84f7b721836439932a0b763b41e7b36d6731ef0d38674caafee575dd5c25"))
+	(127206, uint256S("0xc06df8615646d4a804b29cf4b5afb79edfc4ac55ca8f8e3a4407866f0db25f84"))
+	(254837, uint256S("0x8653f36d7ca2dc854afb0701894913c2127445e2cd38efd8e9e06ffa3aebdc16"))
+	(348972, uint256S("0x3b2640d53f34e0df9a8f2ef47cff9beb3940da2a118406e6307ebffb2fb94a7b"))
+	(423280, uint256S("0xd32e02083542d630cfc3022f8f57acb53266ba5646724d17cd966d944f5b2a1b"));
+
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1611351525, // * UNIX timestamp of last checkpoint block
-    0,          // * total number of transactions between genesis and last checkpoint
+    1642654995, // * UNIX timestamp of last checkpoint block
+    936263,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };

@@ -463,18 +463,14 @@ inline int64_t GetMNCollateral(int nHeight)
         nMNCollateral = 40000;
     } else if (nHeight <= 400000) {
         nMNCollateral = 60000;
-    } else if (nHeight <= 450000) {
+    } else if (nHeight <= 435000) {
         nMNCollateral = 80000;
-    } else if (nHeight <= 500000) {
-        nMNCollateral = 120000;
-    } else if (nHeight <= 550000) {
-        nMNCollateral = 140000;
-    } else if (nHeight <= 600000) {
-        nMNCollateral = 160000;
-    } else if (nHeight <= 650000) {
-        nMNCollateral = 180000;
+    } else if (nHeight <= 460000) {
+        nMNCollateral = 500000;
+    } else if (nHeight <= 630000) {
+        nMNCollateral = 1000000;
     } else {
-        nMNCollateral = 250000;
+        nMNCollateral = 1500000;
     }
 
     return nMNCollateral;
